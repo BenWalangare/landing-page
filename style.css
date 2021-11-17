@@ -66,10 +66,10 @@ a {
     background-color: #3882f6;
     color: #f9faf8;
     font-weight: bolder;
-    font-size: 4px;
+    font-size: 16px;
     border: 0px;
     border-radius: 5px;
-    width: 120px;
+    width: 160px;
     height: 40px;
 }
 
@@ -182,6 +182,7 @@ a {
 #bt-dn {
     border: #f9faf8;
     border-style: solid;
+    width: 160px;
 }
 
 footer {
