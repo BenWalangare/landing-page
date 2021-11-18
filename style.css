@@ -6,8 +6,8 @@ body {
 }
 
 header, footer, .first, .second, .third, .fourth {
-    padding-right: 15%;
-    padding-left: 15%;
+    padding-right: 20%;
+    padding-left: 20%;
 }
 
 header {
@@ -104,20 +104,24 @@ a {
 }
 
 .txt-img {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 
 .imgs {
+    display: flex;
     width: 150px;
     height: 150px;
-    border-color: #3882f6;
-    border-radius: 16px;
-    border-style: solid;
+    border: 10px groove white;
+    border-radius: 16px;    
+    padding: 15px;
 }
 
 .txts {
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 150px
