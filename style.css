@@ -97,10 +97,7 @@ a {
 .cards {
     display: flex;
     align-items: center ;
-    justify-content: center;
-    gap: 52px;
-    padding-right: 20%;
-    padding-left: 20%;
+    justify-content: space-between;
 }
 
 .txt-img {
@@ -115,7 +112,7 @@ a {
     display: flex;
     width: 150px;
     height: 150px;
-    border: 10px groove white;
+    border: 10px groove white; /*learn more about broder shorthand!*/
     border-radius: 16px;    
     padding: 15px;
 }
