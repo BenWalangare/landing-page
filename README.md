@@ -13,3 +13,6 @@ Image by Kate Smith from Pixabay
 
 trollface:
 Image by Alexis Bailey
+
+icon.png:
+image by Freepik from Flaticon
