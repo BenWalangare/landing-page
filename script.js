@@ -8,9 +8,9 @@ buttons.forEach((button) => {
     });
 });
 
-const headerLink = document.querySelectorAll('li');
+const headerLinks = document.querySelectorAll('li');
 
-headerLink.forEach((li) => {
+headerLinks.forEach((li) => {
     if (li.addEventListener('mouseenter', (e) => {
         e.target.style.borderBottom = 'thick solid white';
     }));
