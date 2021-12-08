@@ -11,10 +11,10 @@ buttons.forEach((button) => {
 const headerLink = document.querySelectorAll('li');
 
 headerLink.forEach((li) => {
-    if (li.addEventListener('mouseover', (e) => {
+    if (li.addEventListener('mouseenter', (e) => {
         e.target.style.borderBottom = 'thick solid white';
     }));
-    if (li.addEventListener('mouseout', (e) => {
+    if (li.addEventListener('mouseleave', (e) => {
         e.target.style.borderBottom = '';
     }));
 });
