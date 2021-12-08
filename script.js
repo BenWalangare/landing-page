@@ -7,3 +7,14 @@ buttons.forEach((button) => {
         }
         });
 });
+
+const headerLink = document.querySelectorAll('li');
+
+headerLink.forEach((mouseover) => {
+mouseover.addEventListener('mouseover', function(e) {
+    e.target.style.borderBottom = 'thick solid white';
+    setTimeout(function() {
+        e.target.style.borderBottom = '';
+    }, 500);
+}, false);
+});
