@@ -12,7 +12,7 @@ const headerLinks = document.querySelectorAll('li');
 
 headerLinks.forEach((li) => {
     if (li.addEventListener('mouseenter', (e) => {
-        e.target.style.borderBottom = 'thick solid white';
+        e.target.style.borderBottom = 'thin solid #e5e7eb';
     }));
     if (li.addEventListener('mouseleave', (e) => {
         e.target.style.borderBottom = '';
